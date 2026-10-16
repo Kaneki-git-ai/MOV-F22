@@ -1,0 +1,6 @@
+import path from 'path';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const imgDir = path.join(__dirname, '..', 'images');
+path.extname(file).toLowerCase();
+path.basename(file);
